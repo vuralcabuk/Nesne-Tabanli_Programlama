@@ -1,0 +1,7 @@
+  regular metotlarda (yani class içindeki fonksiyonlardan bahsediyoruz) nesnenin kendisini argüman olarak
+  veriyoruz. yani ' self ' ilk parametresi ile.
+   @classmethod larda ise sınıf içindeki bağımsız olan sınıf değişkenlerimizi
+  parametre olarak veriyoruz. yani ilk parametre ' cls 'oluyor.
+   @staticmethod larda ise tamamen class içindeki sınıf değişkenimiz ve nesne değişkenlerimizden bağımsız olarak parametre
+   veriyoruz. dışardan birşeyler dahil ediyoruz yani. örneğin def mesai_günü(gun): bu fonksiyonda datetime modülünden bir
+   fonksiyon kullanıcaz.
